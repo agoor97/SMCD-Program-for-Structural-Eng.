@@ -1,0 +1,82 @@
+C:\Users\was\Desktop\C#\Design Concrete\Design Concrete\bin\Debug\Design Concrete.exe.config
+C:\Users\was\Desktop\C#\Design Concrete\Design Concrete\bin\Debug\Design Concrete.exe
+C:\Users\was\Desktop\C#\Design Concrete\Design Concrete\bin\Debug\Design Concrete.pdb
+C:\Users\was\Desktop\C#\Design Concrete\Design Concrete\obj\Debug\Design Concrete.csprojResolveAssemblyReference.cache
+C:\Users\was\Desktop\C#\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.Form1.resources
+C:\Users\was\Desktop\C#\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.Properties.Resources.resources
+C:\Users\was\Desktop\C#\Design Concrete\Design Concrete\obj\Debug\Design Concrete.csproj.GenerateResource.Cache
+C:\Users\was\Desktop\C#\Design Concrete\Design Concrete\obj\Debug\Design Concrete.exe
+C:\Users\was\Desktop\C#\Design Concrete\Design Concrete\obj\Debug\Design Concrete.pdb
+C:\Users\was\Desktop\C#\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.finalslab.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\bin\Debug\Design Concrete.exe.config
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design Concrete.exe
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design Concrete.pdb
+C:\Users\was\Desktop\Design Concrete\Design Concrete\bin\Debug\Design Concrete.exe
+C:\Users\was\Desktop\Design Concrete\Design Concrete\bin\Debug\Design Concrete.pdb
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design Concrete.csprojResolveAssemblyReference.cache
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.finalslab.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.Form1.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.Properties.Resources.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design Concrete.csproj.GenerateResource.Cache
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.solid.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.codesolid.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.alfabeta.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.loads.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.onewayHb.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.codeloads.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.codeoneway.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.twowayHB.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.BeamMOR.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.RCsection.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.codercsection.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.LTbeamSection.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.coseTLsection.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.columnsp.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.K.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.codecolumn.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.PMCOL.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.Interaction.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.check.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.PMM.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.alfab.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.getro.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.codePMM.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.shortcant.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.codecant.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.longcolumn.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.getrolong.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.getKlong.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.codelong.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.footN.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.NMfoot.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.NMfoot2.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.Strip.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.combined.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.strap.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.Seismic.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.Damp.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.soiltype.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.zone.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.import.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.response.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.alfa.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.wind.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.Velocity.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.cracks.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.Punch.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.punchcode.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.PunchHelp.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.tanks.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.getRootanks.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.Help.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.stairTwoFlight.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.stairThreeFlight.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.CMandCR.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\bin\Debug\Interop.WMPLib.dll
+C:\Users\was\Desktop\Design Concrete\Design Concrete\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Interop.WMPLib.dll
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design Concrete.csproj.ResolveComReference.cache
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.VideoCMCR.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.codeCMCR.resources
+C:\Users\was\Desktop\Design Concrete\Design Concrete\obj\Debug\Design_Concrete.softstory.resources

@@ -1,0 +1,1239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{48ED571F-31B7-4095-A8CE-A8E28ADC4834}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Design_Concrete</RootNamespace>
+    <AssemblyName>Concrete Design</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Final Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ExcelDataReader, Version=3.6.0.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelDataReader.3.6.0\lib\net45\ExcelDataReader.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ExcelDataReader.DataSet, Version=3.6.0.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelDataReader.DataSet.3.6.0\lib\net35\ExcelDataReader.DataSet.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.1, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13.1\lib\itextsharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="alfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="alfa.Designer.cs">
+      <DependentUpon>alfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="alfab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="alfab.Designer.cs">
+      <DependentUpon>alfab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="alfabeta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="alfabeta.Designer.cs">
+      <DependentUpon>alfabeta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BeamMOR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BeamMOR.Designer.cs">
+      <DependentUpon>BeamMOR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="check.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="check.Designer.cs">
+      <DependentUpon>check.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMandCR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMandCR.Designer.cs">
+      <DependentUpon>CMandCR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMCRLink.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMCRLink.Designer.cs">
+      <DependentUpon>CMCRLink.cs</DependentUpon>
+    </Compile>
+    <Compile Include="codecant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="codecant.Designer.cs">
+      <DependentUpon>codecant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="codeCMCR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="codeCMCR.Designer.cs">
+      <DependentUpon>codeCMCR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="codecolumn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="codecolumn.Designer.cs">
+      <DependentUpon>codecolumn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="codecolumnpunch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="codecolumnpunch.Designer.cs">
+      <DependentUpon>codecolumnpunch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="codecoupling.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="codecoupling.Designer.cs">
+      <DependentUpon>codecoupling.cs</DependentUpon>
+    </Compile>
+    <Compile Include="codedeep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="codedeep.Designer.cs">
+      <DependentUpon>codedeep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="codedeflection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="codedeflection.Designer.cs">
+      <DependentUpon>codedeflection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="codeheavy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="codeheavy.Designer.cs">
+      <DependentUpon>codeheavy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="codeloads.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="codeloads.Designer.cs">
+      <DependentUpon>codeloads.cs</DependentUpon>
+    </Compile>
+    <Compile Include="codelong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="codelong.Designer.cs">
+      <DependentUpon>codelong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="codeoneway.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="codeoneway.Designer.cs">
+      <DependentUpon>codeoneway.cs</DependentUpon>
+    </Compile>
+    <Compile Include="codepdelta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="codepdelta.Designer.cs">
+      <DependentUpon>codepdelta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="codePMM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="codePMM.Designer.cs">
+      <DependentUpon>codePMM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="codercsection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="codercsection.Designer.cs">
+      <DependentUpon>codercsection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="codesoft.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="codesoft.Designer.cs">
+      <DependentUpon>codesoft.cs</DependentUpon>
+    </Compile>
+    <Compile Include="codesolid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="codesolid.Designer.cs">
+      <DependentUpon>codesolid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="codestorydrift.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="codestorydrift.Designer.cs">
+      <DependentUpon>codestorydrift.cs</DependentUpon>
+    </Compile>
+    <Compile Include="codetorsionirre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="codetorsionirre.Designer.cs">
+      <DependentUpon>codetorsionirre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="columnImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="columnImport.Designer.cs">
+      <DependentUpon>columnImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ColumnImportLink.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ColumnImportLink.Designer.cs">
+      <DependentUpon>ColumnImportLink.cs</DependentUpon>
+    </Compile>
+    <Compile Include="columnpunch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="columnpunch.Designer.cs">
+      <DependentUpon>columnpunch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="columnsp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="columnsp.Designer.cs">
+      <DependentUpon>columnsp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="combined.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="combined.Designer.cs">
+      <DependentUpon>combined.cs</DependentUpon>
+    </Compile>
+    <Compile Include="coseTLsection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="coseTLsection.Designer.cs">
+      <DependentUpon>coseTLsection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="couplingbeam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="couplingbeam.Designer.cs">
+      <DependentUpon>couplingbeam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cracks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cracks.Designer.cs">
+      <DependentUpon>cracks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Damp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Damp.Designer.cs">
+      <DependentUpon>Damp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="deepbeam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="deepbeam.Designer.cs">
+      <DependentUpon>deepbeam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="deflection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="deflection.Designer.cs">
+      <DependentUpon>deflection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="driftLink.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="driftLink.Designer.cs">
+      <DependentUpon>driftLink.cs</DependentUpon>
+    </Compile>
+    <Compile Include="slabMOR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="slabMOR.Designer.cs">
+      <DependentUpon>slabMOR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="footN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="footN.Designer.cs">
+      <DependentUpon>footN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="front.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="front.Designer.cs">
+      <DependentUpon>front.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HeavyLink.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HeavyLink.Designer.cs">
+      <DependentUpon>HeavyLink.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mainForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainForm1.Designer.cs">
+      <DependentUpon>mainForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="getKlong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="getKlong.Designer.cs">
+      <DependentUpon>getKlong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="getro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="getro.Designer.cs">
+      <DependentUpon>getro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="getrolong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="getrolong.Designer.cs">
+      <DependentUpon>getrolong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="getRootanks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="getRootanks.Designer.cs">
+      <DependentUpon>getRootanks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HeavyStory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HeavyStory.Designer.cs">
+      <DependentUpon>HeavyStory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Help.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Help.Designer.cs">
+      <DependentUpon>Help.cs</DependentUpon>
+    </Compile>
+    <Compile Include="import.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="import.Designer.cs">
+      <DependentUpon>import.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interaction.Designer.cs">
+      <DependentUpon>Interaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="K.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="K.Designer.cs">
+      <DependentUpon>K.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Loads.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loads.Designer.cs">
+      <DependentUpon>Loads.cs</DependentUpon>
+    </Compile>
+    <Compile Include="longcolumn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="longcolumn.Designer.cs">
+      <DependentUpon>longcolumn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LTbeamSection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LTbeamSection.Designer.cs">
+      <DependentUpon>LTbeamSection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NMfoot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NMfoot.Designer.cs">
+      <DependentUpon>NMfoot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NMfoot2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NMfoot2.Designer.cs">
+      <DependentUpon>NMfoot2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="onewayHb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="onewayHb.Designer.cs">
+      <DependentUpon>onewayHb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pdelta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pdelta.Designer.cs">
+      <DependentUpon>Pdelta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pdeltaLink.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pdeltaLink.Designer.cs">
+      <DependentUpon>pdeltaLink.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pilecapacity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pilecapacity.Designer.cs">
+      <DependentUpon>pilecapacity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PMCOL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PMCOL.Designer.cs">
+      <DependentUpon>PMCOL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PMM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PMM.Designer.cs">
+      <DependentUpon>PMM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Punch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Punch.Designer.cs">
+      <DependentUpon>Punch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="punchcode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="punchcode.Designer.cs">
+      <DependentUpon>punchcode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PunchHelp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PunchHelp.Designer.cs">
+      <DependentUpon>PunchHelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RCsection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RCsection.Designer.cs">
+      <DependentUpon>RCsection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="response.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="response.Designer.cs">
+      <DependentUpon>response.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Seismic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seismic.Designer.cs">
+      <DependentUpon>Seismic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="shortcant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="shortcant.Designer.cs">
+      <DependentUpon>shortcant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="softLink.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="softLink.Designer.cs">
+      <DependentUpon>softLink.cs</DependentUpon>
+    </Compile>
+    <Compile Include="softstory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="softstory.Designer.cs">
+      <DependentUpon>softstory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="soiltype.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="soiltype.Designer.cs">
+      <DependentUpon>soiltype.cs</DependentUpon>
+    </Compile>
+    <Compile Include="solid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="solid.Designer.cs">
+      <DependentUpon>solid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stairThreeFlight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stairThreeFlight.Designer.cs">
+      <DependentUpon>stairThreeFlight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stairTwoFlight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stairTwoFlight.Designer.cs">
+      <DependentUpon>stairTwoFlight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="storydrift.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="storydrift.Designer.cs">
+      <DependentUpon>storydrift.cs</DependentUpon>
+    </Compile>
+    <Compile Include="strap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="strap.Designer.cs">
+      <DependentUpon>strap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Strip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Strip.Designer.cs">
+      <DependentUpon>Strip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tanks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tanks.Designer.cs">
+      <DependentUpon>tanks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="torsionalLink.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="torsionalLink.Designer.cs">
+      <DependentUpon>torsionalLink.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TorsionIrregularity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TorsionIrregularity.Designer.cs">
+      <DependentUpon>TorsionIrregularity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TwoHB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TwoHB.Designer.cs">
+      <DependentUpon>TwoHB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Velocity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Velocity.Designer.cs">
+      <DependentUpon>Velocity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wind.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wind.Designer.cs">
+      <DependentUpon>wind.cs</DependentUpon>
+    </Compile>
+    <Compile Include="zone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="zone.Designer.cs">
+      <DependentUpon>zone.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="alfa.resx">
+      <DependentUpon>alfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="alfab.resx">
+      <DependentUpon>alfab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="alfabeta.resx">
+      <DependentUpon>alfabeta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BeamMOR.resx">
+      <DependentUpon>BeamMOR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="check.resx">
+      <DependentUpon>check.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMandCR.resx">
+      <DependentUpon>CMandCR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMCRLink.resx">
+      <DependentUpon>CMCRLink.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="codecant.resx">
+      <DependentUpon>codecant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="codeCMCR.resx">
+      <DependentUpon>codeCMCR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="codecolumn.resx">
+      <DependentUpon>codecolumn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="codecolumnpunch.resx">
+      <DependentUpon>codecolumnpunch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="codecoupling.resx">
+      <DependentUpon>codecoupling.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="codedeep.resx">
+      <DependentUpon>codedeep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="codedeflection.resx">
+      <DependentUpon>codedeflection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="codeheavy.resx">
+      <DependentUpon>codeheavy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="codeloads.resx">
+      <DependentUpon>codeloads.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="codelong.resx">
+      <DependentUpon>codelong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="codeoneway.resx">
+      <DependentUpon>codeoneway.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="codepdelta.resx">
+      <DependentUpon>codepdelta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="codePMM.resx">
+      <DependentUpon>codePMM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="codercsection.resx">
+      <DependentUpon>codercsection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="codesoft.resx">
+      <DependentUpon>codesoft.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="codesolid.resx">
+      <DependentUpon>codesolid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="codestorydrift.resx">
+      <DependentUpon>codestorydrift.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="codetorsionirre.resx">
+      <DependentUpon>codetorsionirre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="columnImport.resx">
+      <DependentUpon>columnImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ColumnImportLink.resx">
+      <DependentUpon>ColumnImportLink.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="columnpunch.resx">
+      <DependentUpon>columnpunch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="columnsp.resx">
+      <DependentUpon>columnsp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="combined.resx">
+      <DependentUpon>combined.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="coseTLsection.resx">
+      <DependentUpon>coseTLsection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="couplingbeam.resx">
+      <DependentUpon>couplingbeam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cracks.resx">
+      <DependentUpon>cracks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Damp.resx">
+      <DependentUpon>Damp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deepbeam.resx">
+      <DependentUpon>deepbeam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deflection.resx">
+      <DependentUpon>deflection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="driftLink.resx">
+      <DependentUpon>driftLink.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="slabMOR.resx">
+      <DependentUpon>slabMOR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="footN.resx">
+      <DependentUpon>footN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="front.resx">
+      <DependentUpon>front.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeavyLink.resx">
+      <DependentUpon>HeavyLink.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainForm1.resx">
+      <DependentUpon>mainForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="getKlong.resx">
+      <DependentUpon>getKlong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="getro.resx">
+      <DependentUpon>getro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="getrolong.resx">
+      <DependentUpon>getrolong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="getRootanks.resx">
+      <DependentUpon>getRootanks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeavyStory.resx">
+      <DependentUpon>HeavyStory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help.resx">
+      <DependentUpon>Help.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="import.resx">
+      <DependentUpon>import.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interaction.resx">
+      <DependentUpon>Interaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="K.resx">
+      <DependentUpon>K.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loads.resx">
+      <DependentUpon>Loads.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="longcolumn.resx">
+      <DependentUpon>longcolumn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LTbeamSection.resx">
+      <DependentUpon>LTbeamSection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NMfoot.resx">
+      <DependentUpon>NMfoot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NMfoot2.resx">
+      <DependentUpon>NMfoot2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="onewayHb.resx">
+      <DependentUpon>onewayHb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pdelta.resx">
+      <DependentUpon>Pdelta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pdeltaLink.resx">
+      <DependentUpon>pdeltaLink.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pilecapacity.resx">
+      <DependentUpon>pilecapacity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PMCOL.resx">
+      <DependentUpon>PMCOL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PMM.resx">
+      <DependentUpon>PMM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Punch.resx">
+      <DependentUpon>Punch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="punchcode.resx">
+      <DependentUpon>punchcode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PunchHelp.resx">
+      <DependentUpon>PunchHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RCsection.resx">
+      <DependentUpon>RCsection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="response.resx">
+      <DependentUpon>response.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seismic.resx">
+      <DependentUpon>Seismic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="shortcant.resx">
+      <DependentUpon>shortcant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="softLink.resx">
+      <DependentUpon>softLink.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="softstory.resx">
+      <DependentUpon>softstory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="soiltype.resx">
+      <DependentUpon>soiltype.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="solid.resx">
+      <DependentUpon>solid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stairThreeFlight.resx">
+      <DependentUpon>stairThreeFlight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stairTwoFlight.resx">
+      <DependentUpon>stairTwoFlight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="storydrift.resx">
+      <DependentUpon>storydrift.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="strap.resx">
+      <DependentUpon>strap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strip.resx">
+      <DependentUpon>Strip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tanks.resx">
+      <DependentUpon>tanks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="torsionalLink.resx">
+      <DependentUpon>torsionalLink.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TorsionIrregularity.resx">
+      <DependentUpon>TorsionIrregularity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TwoHB.resx">
+      <DependentUpon>TwoHB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Velocity.resx">
+      <DependentUpon>Velocity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wind.resx">
+      <DependentUpon>wind.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="zone.resx">
+      <DependentUpon>zone.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="PlayVideoForCMCR.Ccs">
+      <SubType>Form</SubType>
+    </None>
+    <None Include="PlayVideoForCMCR.Designer.Ccs" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cant.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\one.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\two.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\solidslab.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\endd.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loads11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3RIBS.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m33.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\noxrib.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ONE RIB.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\noxrib1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\one way hb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3onewayhb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3hbone.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3onewayhb1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3hbone1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2onewayhb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hbdimen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ONEWAYCODE.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\twohb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TWOFINALHB.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11hb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\L.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lfinal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tfinal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rfinal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\torsion beam.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ordina.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beammor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\finalcode.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lfinal1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tfinal1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\55.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tsection.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\columns.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\22.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\551.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\id.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alfab.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\552.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\canr2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cant1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\finalcant.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\about b.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\about t.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\biaxial WithM.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\final.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\squfoot.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\111.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\recfoot.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ment.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\footnm.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\footnm2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\strip.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\553.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\554.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\555.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\88.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\881.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Damp.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soil.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imprt.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ALFA.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wind.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ce.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\K.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\v.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kods.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\code crack.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Corner.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edge.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Interior.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\punchdetail-vert.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edge1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Corner1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Punchhelping.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inter-horz.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inter.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edgeee.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EDGEE.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TAnk.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stair1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stairs1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\STAIRS2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\three.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tree fight.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\three1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Codechecks1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soft.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heavy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pdelta-vert.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DRIFT1-vert.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\torsion irr..jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\torsion irr.1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Final Icon.ico" />
+    <None Include="Resources\import excel.jpg" />
+    <None Include="Resources\final code punch.jpg" />
+    <None Include="Resources\circular ounch new.jpg" />
+    <None Include="Resources\interiorpunchnew.jpg" />
+    <None Include="Resources\edgepunchnew.jpg" />
+    <None Include="Resources\cornerpunch new.jpg" />
+    <None Include="Resources\final final deflection.jpg" />
+    <None Include="Resources\final delection.jpg" />
+    <None Include="Resources\defl new 1-vert.jpg" />
+    <None Include="Resources\base wind.jpg" />
+    <None Include="Resources\WIND PLAN.jpg" />
+    <None Include="Resources\coupling photo.jpg" />
+    <None Include="Resources\coupling detail.jpg" />
+    <None Include="Resources\coupling1-vert.jpg" />
+    <None Include="Resources\FINAL CODE DEEP.jpg" />
+    <None Include="Resources\compldeep.jpg" />
+    <None Include="Resources\deep simple1.jpg" />
+    <None Include="Resources\112.jpg" />
+    <None Include="Resources\contdeep.jpg" />
+    <None Include="Resources\deep fina.jpg" />
+    <None Include="Resources\deep simple.jpg" />
+    <None Include="Resources\33.png" />
+    <None Include="Resources\for-Help.jpg" />
+    <None Include="Resources\Logo-photo.jpg" />
+    <None Include="Resources\Prog1.jpg" />
+    <None Include="Resources\Prog.jpg" />
+    <None Include="Resources\LogoAgoor.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
